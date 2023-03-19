@@ -16,7 +16,7 @@ let speed = distance / time;
 alert(`You need to travel at a speed of ${speed} km/h to arrive on time.`);
 
 //4 
-let currencyRate = 0.94; // store the currency rate
+let currencyRate = 0.94; 
 let dollars = prompt("How many dollars do you want to convert?"); 
 let euros = dollars * currencyRate;
 alert(`${dollars} dollars is equal to ${euros} euros.`); 
